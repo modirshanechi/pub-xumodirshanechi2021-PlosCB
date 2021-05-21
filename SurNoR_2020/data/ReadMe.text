@@ -1,0 +1,44 @@
+Description of the data:
+---------------------------------------------
+* "BehavData_SwitchState.csv":
+It contains all the behavioral data for reproducing the results of the paper. Each row corresponds to one trial.
+
+There are some differences in naming compared to the paper:
+- env      = Block      in the paper + 2
+- state 1  = Goal state in the paper
+- state 2  = state 1    in the paper
+- state 3  = state 8    in the paper
+- state 4  = state 3    in the paper
+- state 5  = state 5    in the paper
+- state 6  = state 2    in the paper
+- state 7  = state 9    in the paper
+- state 8  = state 10   in the paper
+- state 9  = state 4    in the paper
+- state 10 = state 6    in the paper
+- state 11 = state 7    in the paper
+
+WARNING: Data for subject 10 is not included because he/she quit the experiment.
+
+WARNING: In the code, states are called observation, and numbering starts from 0, e.g., state 5 in "BehavData_SwitchState.csv" is called state 4 in the code.
+
+---------------------------------------------
+* "EEG_Frontal.csv":
+It contains the preprocessed EEG data necessary to reproducing the results of the paper. Each row corresponds to one trial. From column 8 to the end, each number corresponds to the EEG amplitude, averaged over the prefrontal electrodes (Fz, F1, F2, AFz, FCz), from 200ms before until 700ms after the onset of each trial (Fs=256Hz).
+
+Naming convention is the same as the naming convention in "BehavData_SwitchState.csv".
+
+WARNING: Data for subject 10 is not included because he/she quit the experiment.
+
+WARNING: Data for subject 1 and 13 is not included because of their noisy and low quality signals caused by substantial movements during the experiment.
+
+---------------------------------------------
+* "HardEnvironment11s.mat":
+It contains the transition matrix for both block 1 and block 2 (Fig 1B and 1D of the paper) as well as the initial states for different episodes (see Methods in the paper).
+
+Naming convention is the same as the naming convention in "BehavData_SwitchState.csv".
+
+---------------------------------------------
+* "ActionClasses.mat":
+Shows the good and the neutral actions at each state for both block 1 and block 2 - the information is redundant given "HardEnvironment11s.mat", but the file is used for computing average progress in the code.
+
+Naming convention is the same as the naming convention in "BehavData_SwitchState.csv".

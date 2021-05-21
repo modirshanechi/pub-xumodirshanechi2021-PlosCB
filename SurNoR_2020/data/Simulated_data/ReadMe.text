@@ -1,0 +1,3 @@
+How to generate the data saved in this folder?
+
+Run "src/Simulation/Simulate_samples.jl".

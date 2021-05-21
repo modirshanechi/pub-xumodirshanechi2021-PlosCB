@@ -1,0 +1,4 @@
+How to generate the data saved in this folder?
+
+Run "src/SavingDataForEEG/SavingDataForEEG_opt_i.jl".
+See Methods in the paper for details of choosing the parameters for the EEG analysis.

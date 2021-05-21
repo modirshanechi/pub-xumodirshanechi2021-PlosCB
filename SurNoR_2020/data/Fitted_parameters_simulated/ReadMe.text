@@ -1,0 +1,11 @@
+How to generate the data saved in this folder?
+
+1. For cross validation and model-recovery (CV_3Fold):
+1.1. Run all the .jl files in "src/Optimization_simulated/CV_3Fold/" to fit the parameters of different models to the simulated data (n_set = 1, 2, or 3) using 3-fold cross validation.
+1.2. Run "src/Optimization_simulated/Coord_Asc_CV_Result_Analysis_4Parts.jl" and "src/Optimization_simulated/Coord_Asc_CV_Result_Analysis.jl" to process the results of step 1.1.
+
+2. For fitting SurNoR to the whole simulated data for parameter recovery (Overall):
+2.1. Run "src/Optimization_simulated/Overall/Coord_Asc_SurNoR.jl" to fit the parameters of SurNoR to the whole simulated data (n_set = 1, 2, or 3).
+2.2. Run "src/Optimization_simulated/Coord_Asc_OverAll_Result_Analysis.jl" to process the results of step 2.1.
+
+As a results, all the data in this folder would be re-produced.

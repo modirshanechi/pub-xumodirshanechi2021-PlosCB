@@ -1,0 +1,4 @@
+How to generate the data saved in this folder?
+
+1. Run "src/LogL_Landscape/LogL_Landscape_SaveData.jl" to produce all CSV files with the names "LogL_range_ij_Row3.CSV" with j in {1,...,18}.
+2. Run "figure_script/S4_Fig_S1_Table.jl" to generate "SurNoR_Params_Sigma_rounded.CSV".

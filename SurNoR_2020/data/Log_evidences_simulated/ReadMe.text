@@ -1,0 +1,4 @@
+How to generate the data saved in this folder?
+
+1. For each n_set, "LogL_Matrix.mat" is generated and saved by running "figure_script/Fig7_S1_S2_S3.jl"
+2. After step 1, run "LogL_BMS.m" to use the SPM12 package and produce "BMS_Data.mat" for each n_set.

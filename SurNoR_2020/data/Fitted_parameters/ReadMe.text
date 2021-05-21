@@ -1,0 +1,11 @@
+How to generate the data saved in this folder?
+
+1. For cross validation (CV_3Fold):
+1.1. Run all the .jl files in "src/Optimization/CV_3Fold/" to fit the parameters of different models to the behavioral data using 3-fold cross validation.
+1.2. Run "src/Optimization/Coord_Asc_CV_Result_Analysis_4Parts.jl" and "src/Optimization/Coord_Asc_CV_Result_Analysis.jl" to process the results of step 1.1.
+
+2. For fitting SurNoR to the whole data (Overall):
+2.1. Run "src/Optimization/Overall/Coord_Asc_SurNoR.jl" to fit the parameters of SurNoR to the whole data.
+2.2. Run "src/Optimization/Coord_Asc_OverAll_Result_Analysis.jl" to process the results of step 2.1.
+
+As a results, all the data in this folder would be re-produced.
