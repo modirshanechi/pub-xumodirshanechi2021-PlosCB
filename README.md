@@ -2,7 +2,7 @@
 
 This repository contains the code and data for the results reported in the article:
 
-H.A. Xu*, A. Modirshanechi*, M.P. Lehmann, W. Gerstner**, and M.H. Herzog**, [“Novelty is not Surprise: Human exploratory and adaptive behavior in sequential decision-making”](https://www.biorxiv.org/content/10.1101/2020.09.24.311084v2.full), PLOS Computational Biology (2021)
+H.A. Xu*, A. Modirshanechi*, M.P. Lehmann, W. Gerstner**, and M.H. Herzog**, [“Novelty is not Surprise: Human exploratory and adaptive behavior in sequential decision-making”](https://doi.org/10.1371/journal.pcbi.1009070), PLOS Computational Biology 17(6): e1009070. (2021)
 
 \*  H.X. and A.M. contributed equally to this work.
 
