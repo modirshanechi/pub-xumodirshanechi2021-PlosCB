@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/369556929.svg)](https://zenodo.org/badge/latestdoi/369556929)
+
 # pub-xumodirshanechi2021-PlosCB
 
 This repository contains the code and data for the results reported in the article:
